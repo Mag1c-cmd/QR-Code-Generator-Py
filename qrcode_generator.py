@@ -1,5 +1,4 @@
 import qrcode
-import pathlib
 import glob
 import os
 
