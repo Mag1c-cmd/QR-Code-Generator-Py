@@ -19,7 +19,7 @@ if __name__ == "__main__":
     qr.add_data(URL)
     qr.make(fit=True)
     img = qr.make_image(fill='black', back_color='white')
-    imgList = glob.glob("*.png")
+    imgList = glob.glob("QR Codes/*.png")
     if len(imgList) == 0:
         img.save('QR Codes/qrcode.png')
     else:
